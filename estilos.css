@@ -1,0 +1,206 @@
+@font-face{
+    font-family: 'neuron-angled';
+    src: url('Neuron\ Angled\ Db.ttf') 
+    format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    font-family: "neuron-angled";
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+small{
+    font-size: 15px;
+}
+
+u{
+  color:  #3a575f;
+}
+
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#servicos {
+    padding: 20px;
+}
+
+#servicos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#servicos li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    clear: both;
+}
+  
+button {
+  border-radius: 20px;
+ }
+
+ .tab-container {
+  width: 350px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.tab-header {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-button {
+  background-color: #3a575f;
+  color: #fff;
+  border: none;
+  padding: 13px 140px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.tab-button:hover {
+    color: (224, 145, 255);
+}
+
+.tab-content {
+  padding: 20px;
+  display: none;
+}
+
+html{
+  align-items: center;
+}
+
+
+img{
+    border-radius: 10px;
+}
+
+
+.imagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem {
+  width: 290px; /* Ajuste a largura para suas necessidades */
+  height: 220px; /* Ajuste a altura para suas necessidades */
+
+  object-fit: cover;
+  border: 1px solid #ccc; /* Adicione uma borda para as imagens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aba {
+    margin-bottom: 20px;
+  }
+
+
+  
+  .botao-aba {
+    background-color: #3a575f;
+    color: #fff;
+    padding: 7px 30px 7px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+
+
+  .botao-aba:hover {
+    background-color: #3a575f;
+  }
+  
+  .conteudo-aba {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .conteudo-aba.ativo {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
